@@ -682,12 +682,12 @@ footer{
 .modal-dialog {
     position: relative;
     width: auto;
-    margin: 10px;
+    margin: 100px;
 }
 @media (min-width: 576px) {
   .modal-dialog {
       max-width: 1100px;
-      margin: 30px auto; /* для отображения модального окна по центру */
+      margin: 100px auto; /* для отображения модального окна по центру */
   }
 }
 /* свойства для блока, содержащего контент модального окна */ 
