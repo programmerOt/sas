@@ -79,10 +79,21 @@
     .h40{
         height: 40px;
     }
+    .tab-text{
+        margin: auto 10px auto 0;
+        
+    }
+    .consultation{
+        margin-top: 5px;
+        font-size: 23px;
+    }
 }
 @media screen and (max-width: 790px){
     .wrapper{
         max-width: 570px;
+    }
+    header{
+        padding-bottom: 0;
     }
     nav{
         display: none;
@@ -103,8 +114,104 @@
     .main-offer{
         margin-bottom: 0;
     }
-    .consultation{
-        font-size: 25px;
-    }
     
+    .main-text{
+        font-size: 30px;
+    }
+    .b01{
+        display: none;
+    }
+    .tab-text{
+        font-size: 15px;
+    }
+    .service{
+        width: 100%;
+    }
+    .section-form{
+        flex-direction: column;
+        background:rgba(207, 236, 255, .2) url(../img/answer.png) no-repeat 90% 100%;
+    }
+    .form-description{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 20px 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .form-title{
+        margin-bottom: 8px;
+    }
+    .free{
+        margin-bottom: 10px;
+    }
+    .form-text{
+        text-align: center;
+    }
+    .main-form{
+        margin: 0 5px;
+    }
+    .sert-cards{
+        justify-content: space-around;
+    }
+    .advantages-card{
+        flex: 1 0 45%;
+    }
+    .card{
+        max-width: 400px;
+    }
+    .contacts-about{
+        margin-right: 20px;
+    }
+    .black{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .wrapper{
+        max-width: 380px;
+    }
+    .telefon-link{
+        display: none;
+    }
+    .main-text{
+        font-size: 22px;
+    }
+    .black{
+        font-size: 22px;
+    }
+    .main-icons{
+        flex-direction: column;
+    }
+    .main-tab{
+        margin-bottom: 10px;
+    }
+    .w415{
+        width: 370px;
+    }
+    .first-screen-button{
+        width: 370px;
+    }
+    .button{
+        font-size: 13px;
+    }
+    .service-container{
+        flex-direction: column-reverse;
+    }
+    input{
+        font-size: 12px;
+    }
+    .form-wrapper{
+        padding: 24px 0 0 5px;
+    }
+    .contacts-cont{
+        flex-direction: column;
+    }
+    .footer-top{
+        flex-direction: column;
+    }
+    .tel-footer{
+        font-size: 14px;
+    }
 }
