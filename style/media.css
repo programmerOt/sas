@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+    .wrapper{
+        max-width: 970px;
+    }
+    .card-container{
+        justify-content: space-evenly
+    }
+    .card{
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (max-width: 1100px) {
+
+    input { font-size: 15px; }
+}
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        max-width: 770px;
+    }
+    .header-button{
+        font-size: 11px;
+        height: auto;
+    }
+    nav>a{
+        font-size: 12px;
+    }
+    .main-text{
+        font-size: 36px;
+    }
+    .tab-icon{
+        object-fit: contain;
+    }
+    .tab-text{
+        font-size: 18px;
+    }
+    .form-input{
+        width: auto;
+    }
+    .service-header{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .services{
+        margin-bottom: 30px;
+    }
+    .service-img>img{
+        width: 100%;
+    }
+    .service{
+        width: 60%;
+    }
+    .form-text{
+        font-size: 16px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .section-header{
+        margin-bottom: 40px;
+    }
+    .mb55{
+        margin-bottom: 32px;
+    }
+    .w415{
+        width: 415px;
+        margin-bottom: 15px;
+    }
+    .sert-img{
+        max-height: 220px;
+    }
+    .mb130{
+        margin-bottom: 60px;
+    }
+    .pt90{
+        padding-top: 45px;
+    }
+    .h40{
+        height: 40px;
+    }
+}
+@media screen and (max-width: 790px){
+    .wrapper{
+        max-width: 570px;
+    }
+    nav{
+        display: none;
+    }
+    .header-telefon{
+        margin-right: 10px;
+    }
+}

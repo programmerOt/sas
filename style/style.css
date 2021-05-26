@@ -5,6 +5,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+html {
+    scroll-behavior: smooth;
+  }
 a{
     text-decoration: none;
 }
@@ -805,6 +808,7 @@ footer{
 
     font-size: 16px;
     line-height: 25px;
+
 }
 .modal-subtitle{
     font-size: 16px;
@@ -824,4 +828,27 @@ footer{
 }
 .mt40{
     margin-top: 40px;
+}
+.w500{
+    width: 500px;
+    align-self: center;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.modal-title1{
+        margin-top: 50px;
+        margin-bottom: 0px;
+        font-size: 25px;
+        font-weight: 600;
+    
+}
+.modal-container-small{
+    display: flex;
+    flex-direction: column;
+}
+.fz14{
+    font-size: 14px;
+}
+iframe{
+    max-width: 100%;
 }

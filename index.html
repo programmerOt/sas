@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 <body>
     
@@ -28,17 +29,20 @@
                         <a class="telefon-link" href="tel:88007071594">8 800 707-15-94 </a>
                         <span class="telefon-text">Работаем по всем регионам РФ</span>
                     </div>
-                    <a href="#" class="header-button">Перезвоните мне</a>
+                    <a href="#openModal2" class="header-button">Перезвоните мне</a>
                 </div>
             </div>
-            <nav>
-                <a href="#">Реестр НРНП</a>
-                <a href="#">Свидетельство PRAS</a>
-                <a href="#">Сертификат ИСО</a>
-                <a href="#">Порядок внесения</a>
-                <a href="#">Стоимость и сроки</a>
-                <a href="#">О центре</a>
-                <a href="#">Контакты</a>
+            <div class="hamburger-menu">
+
+            <nav >
+                
+                <a href="#reestr">Реестр НРНП</a>
+                <a href="#svideteltvo">Свидетельство PRAS</a>
+                <a href="#sertificat">Сертификат ИСО</a>
+                <a href="#order">Порядок внесения</a>
+                <a href="#cost">Стоимость и сроки</a>
+                <a href="#about">О центре</a>
+                <a href="#contacts">Контакты</a>
             </nav>
 
 
@@ -105,7 +109,7 @@
 </section>
 <section class="services">
     <div class="wrapper">
-        <div class="section-header">
+        <div id="reestr" class="section-header">
             <h3 class="section-title">
                 Наши услуги по сертификации
             </h3>
@@ -182,7 +186,7 @@
 
 
 </section>
-<section class="services">
+<section id="svideteltvo" class="services">
     <div class="wrapper">
         
         <div class="services-title">
@@ -257,7 +261,7 @@
 
 
 </section>
-<section class="services">
+<section id="sertificat" class="services">
     <div class="wrapper">
 
         <div class="services-title">
@@ -334,7 +338,7 @@
 
 
 </section>
-<section class="bg-blue pt90">
+<section id="cost" class="bg-blue pt90">
     <div class="wrapper">
         <div class="section-header">
             <h3 class="section-title">
@@ -410,7 +414,7 @@
     </div>
 </section>
 <section>
-    <div class="wrapper">
+    <div id="about" class="wrapper">
         <h3 class="about-title">
             О центре сертификации
         </h3>
@@ -508,7 +512,7 @@
     </div>
 </section>
 <section>
-    <div class="wrapper pt90">
+    <div id="order" class="wrapper pt90">
         <div class="section-header">
             <h3 class="section-title">
                 Преимущества нашего центра
@@ -592,7 +596,7 @@
                 
                 <form action="#" class="form-header">
                     
-                    <input type="text" class="form-input" placeholder="Ваш номер телефона">
+                    <input type="text" class="form-input w415" placeholder="Ваш номер телефона">
                     <button type="submit" class="button first-screen-button">
                         Получить бесплатную консультацию
                     </button>
@@ -602,7 +606,7 @@
     </div>
 </section>
 <section>
-    <div class="wrapper">
+    <div id="contacts" class="wrapper">
         <div class="section-header">
             <h3 class="section-title">
                 Наши контакты
@@ -634,7 +638,7 @@
                     </div>
 
             </div>
-            <div class="contacts-cart"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acdc05e6b0c28b90bead41663ca3f4f52ecb090b885e3987ddab7a2d813c8fd65&amp;source=constructor" width="570" height="374" frameborder="0"></iframe></div>
+            <div class="contacts-cart"><iframe  src="https://yandex.ru/map-widget/v1/?um=constructor%3Acdc05e6b0c28b90bead41663ca3f4f52ecb090b885e3987ddab7a2d813c8fd65&amp;source=constructor" width="570" height="374" frameborder="0"></iframe></div>
         </div>
     </div>
 </section>
@@ -651,7 +655,7 @@
                     <a class="tel-footer" href="tel:+88007071594">8800 707-15-94</a>
                     <a class="tel-footer" href="tel:+74951777402">+7 (495) 177-74-02</a>
                 </div>
-                <a href="#" class="header-button">Перезвоните мне</a>
+                <a href="#openModal2" class="header-button h40">Перезвоните мне</a>
 
             </div>
         </div>
@@ -804,19 +808,23 @@
       
     </div>
   </div>
-  <div id="openModal" class="modal">
+  <div id="openModal2" class="modal">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content w500">
         <div class="modal-header">
-          <h3 class="modal-title garant">Для чего необходима сертификация и стандартизация бизнеса, членство 
-            в Национальном Реестре Надежных Поставщиков (НРНП) и 
-            Сертификация PRAS</h3>
-          <a href="#close" title="Close"  class="close">×</a>
+          <h3 class="modal-title1 garant">Задайте свой вопрос 
+            по сертификатам и свидетельствам</h3>
+          <a href="#close2" title="Close"  class="close">×</a>
         </div>
         <div class="modal-body">
-            <div class="modal-container">
-                <h3 class="modal-title garant mb130">Задайте свой вопрос 
-                    по сертификатам и свидетельствам></h3>
+            <div class="modal-container-small">
+                <p class="modal-text mb15">Наш эксперт в течение 5 минут проконсультирует и всё подскажет</p>
+                <form action="#" class="contact-form">
+                    <input type="text" class="form-input form-contact mr0 mb15" placeholder="Ваш номер телефона">
+                    <button type="submit" class="button fz14 button-bottom form-contact ">
+                        Получить бесплатную консультацию
+                    </button>
+                </form>
             </div>  
         </div>
       </div>
