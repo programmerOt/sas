@@ -89,5 +89,22 @@
     }
     .header-telefon{
         margin-right: 10px;
+        align-self: center;
     }
+    .telefon-link{
+        font-size: 16px;
+    }
+    .telefon-text {
+        display: none;
+    }
+    .main{
+        padding: 50px 0;
+    }
+    .main-offer{
+        margin-bottom: 0;
+    }
+    .consultation{
+        font-size: 25px;
+    }
+    
 }
